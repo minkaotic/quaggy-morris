@@ -1,0 +1,62 @@
+
+/* ------- Fonts + text --------------------- */
+
+@font-face {
+    font-family: Rubik;
+    src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Rubik;
+    font-weight: bold;
+    src: url('../fonts/Rubik-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Rubik', Arial, sans-serif;
+}
+
+.header,
+.intro {
+  font-family: 'Rubik', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.header a,
+.intro h1,
+footer a:hover {
+  color: #D20F50;
+}
+
+.header a:hover,
+.intro p,
+footer,
+footer a {
+  color: #EB5A0A;
+}
+
+/* ------- General + Index --------------------- */
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  margin: 0 10px;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+
+.intro {
+  background-color: #FABEBE1A;
+  padding: 20px 0;
+}
