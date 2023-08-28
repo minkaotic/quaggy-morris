@@ -1,3 +1,2 @@
-# lust-voll-lernen
-
-New website to replace www.sexuellebildung.org
+# Quaggy Morris
+Website for the South East London based Morris side!
