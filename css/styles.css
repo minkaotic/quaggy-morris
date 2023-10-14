@@ -1,5 +1,5 @@
 
-/* ------- Fonts + text --------------------- */
+/* ------- Across all pages --------------------- */
 
 @font-face {
     font-family: Rubik;
@@ -13,50 +13,41 @@
 }
 
 body {
-  font-family: 'Rubik', Arial, sans-serif;
-}
-
-.header,
-.intro {
-  font-family: 'Rubik', Arial, sans-serif;
-  font-weight: bold;
-}
-
-.header a,
-.intro h1,
-footer a:hover {
-  color: #D20F50;
-}
-
-.header a:hover,
-.intro p,
-footer,
-footer a {
-  color: #EB5A0A;
-}
-
-/* ------- General + Index --------------------- */
-
-img {
-  max-width: 100%;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: green;
 }
 
 .wrapper {
   margin: 0 10px;
 }
 
-.header {
+header {
   padding: 20px 0;
 }
 
-.header a {
-  font-size: 30px;
-  text-decoration: none;
+main {
+  flex: 1;
 }
 
+.title {
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+}
 
-
-.intro {
-  background-color: #FABEBE1A;
+footer {
+  background-color: lightskyblue;
   padding: 20px 0;
 }
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ------- Index --------------------- */
+
+
+
