@@ -74,13 +74,20 @@ header {
   }
 }
 
-.logo {
-  width: 100px;
+.logo-container {
   position: absolute;
   z-index: 4;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.logo-container::after {
+  content: none;
+}
+
+.logo {
+  width: 100px;
 }
 
 main {
@@ -125,6 +132,32 @@ footer {
 .footer-content {
   display: flex;
   justify-content: space-between;
+}
+
+@media (min-width:900px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    height: 330px;
+  }
+
+  .logo-container {
+    top: 15px;
+    left: 40px;
+    transform: none;
+  }
+
+  .logo {
+    width: 140px;
+
+  }
+
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 /* ------- Responsive nav --------------------- */
@@ -215,6 +248,34 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width:900px) {
+  .hamburger-menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+    min-height: auto;
+    padding: 20px 0;
+    margin: 0 30px 0 auto;
+  }
+
+  .navigation>a:first-child {
+    display: none;
+  }
+
+  .navigation>a {
+    background: black;
+    border-radius: 5px;
+    padding: 10px;
+  }
 }
 
 /* ------- Index --------------------- */
