@@ -1,6 +1,6 @@
 :root {
   --main-green: #26a96c;
-  --off-white: #fdfcdc;
+  --link-color: #dceab2;
   --menu-color: #0081a7;
   --bar-width: 50px;
   --bar-height: 8px;
@@ -99,7 +99,7 @@ p {
 
 a,
 a:visited {
-  color: var(--off-white);
+  color: var(--link-color);
   text-decoration: none;
   position: relative;
 }
@@ -110,7 +110,7 @@ a::after {
   bottom: 0;
   left: 0;
   height: 4px;
-  background-color: pink;
+  background-color: #ffc9b9;
   display: block;
   position: absolute;
   opacity: 0.75;
@@ -123,7 +123,7 @@ footer {
 
 .footer-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* ------- Responsive nav --------------------- */
@@ -172,7 +172,7 @@ footer {
 
 .hamburger-menu:has(input:checked) {
   position: fixed;
-  --hamburger-color: var(--off-white);
+  --hamburger-color: var(--link-color);
 }
 
 .hamburger-menu:has(input:checked)::before {
@@ -190,7 +190,6 @@ footer {
 }
 
 .navigation>a {
-  color: var(--off-white);
   width: max-content;
   margin: 15px;
 }
