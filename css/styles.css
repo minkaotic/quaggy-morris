@@ -44,7 +44,7 @@ header {
   padding: 16px 0;
   height: 190px;
   text-align: center;
-  background: url(../img/stag2.jpg);
+  background-image: url(../img/stag2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -145,7 +145,7 @@ footer {
 
   .logo-container {
     top: 15px;
-    left: 40px;
+    left: 0;
     transform: none;
   }
 
@@ -154,8 +154,13 @@ footer {
 
   }
 
-  .wrapper {
-    max-width: 800px;
+  .header-wrapper {
+    position: relative;
+  }
+
+  .wrapper,
+  .header-wrapper {
+    max-width: 900px;
     margin: 0 auto;
   }
 }
@@ -272,7 +277,7 @@ footer {
   }
 
   .navigation>a {
-    background: black;
+    background-color: black;
     border-radius: 5px;
     padding: 10px;
   }
