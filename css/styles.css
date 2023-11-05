@@ -235,7 +235,7 @@ footer {
 
 .navigation {
   display: none;
-  width: 250px;
+  width: 300px;
   max-width: 100vw;
   background-color: var(--menu-color);
   opacity: 0.98;
