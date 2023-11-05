@@ -134,13 +134,24 @@ footer {
   justify-content: space-between;
 }
 
-@media (min-width:900px) {
+@media (min-width:780px) {
   body {
     overflow-x: hidden;
   }
 
   header {
     height: 330px;
+  }
+
+  .header-wrapper {
+    position: relative;
+  }
+
+  .wrapper,
+  .header-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
 
   .logo-container {
@@ -154,15 +165,10 @@ footer {
 
   }
 
-  .header-wrapper {
-    position: relative;
+  main {
+    margin-bottom: 80px;
   }
 
-  .wrapper,
-  .header-wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-  }
 }
 
 /* ------- Responsive nav --------------------- */
@@ -255,7 +261,7 @@ footer {
   align-items: center;
 }
 
-@media (min-width:900px) {
+@media (min-width:780px) {
   .hamburger-menu {
     display: none;
   }
