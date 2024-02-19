@@ -1,7 +1,7 @@
 :root {
   --main-green: #26a96c;
-  --link-color: #dceab2;
-  --menu-color: #0081a7;
+  --link-color: #26a96c;
+  --menu-color: white;
   --bar-width: 50px;
   --bar-height: 8px;
   --hamburger-gap: 6px;
@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--main-green);
+  background-color: whitesmoke;
 }
 
 .wrapper {
@@ -74,20 +74,24 @@ header {
   }
 }
 
-.logo-container {
-  position: absolute;
-  z-index: 4;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.quaggy {
+  background-color: var(--main-green);
+  padding: 5px 0;
 }
 
-.logo-container::after {
-  content: none;
-} 
+.quaggy-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 .logo {
   width: 100px;
+}
+
+.quaggy-intro-img {
+  width: 100vw;
+  border-radius: 0 0 14rem 14rem;
 }
 
 main {
@@ -101,7 +105,7 @@ p {
 
 .title {
   font-family: 'Caveat', cursive;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 a,
@@ -117,15 +121,16 @@ a::after {
   bottom: 0;
   left: 0;
   height: 4px;
-  background-color: #ffc9b9;
+  /* background-color: #ffc9b9; */
+  background-color: blue;
   display: block;
   position: absolute;
   opacity: 0.75;
 }
 
 footer {
-  color: #073b4c;
-  background-color: #38a3a5;
+  color: whitesmoke;
+  background-color: black;
   padding: 20px 0;
 }
 
@@ -152,12 +157,6 @@ footer {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1rem;
-  }
-
-  .logo-container {
-    top: 15px;
-    left: 0;
-    transform: none;
   }
 
   .logo {
