@@ -1,7 +1,7 @@
 :root {
   --main-green: #26a96c;
   --link-color: #26a96c;
-  --menu-color: white;
+  --menu-color: black;
   --bar-width: 42px;
   --bar-height: 5px;
   --hamburger-gap: 6px;
@@ -194,7 +194,7 @@ footer {
 
 .hamburger-menu:has(input:checked) {
   position: fixed;
-  --hamburger-color: black;
+  --hamburger-color: whitesmoke;
 }
 
 .hamburger-menu:has(input:checked)::before {
@@ -211,7 +211,7 @@ footer {
 
 .navigation>a {
   width: max-content;
-  margin: 15px;
+  margin: 20px;
   font-weight: bold;
 }
 
