@@ -58,9 +58,7 @@ header {
 
 main {
   flex: 1;
-  background-image: url(../img/stag2_full.jpg);
-  background-size: cover;
-  background-position: center;
+
 }
 
 a.text-link,
@@ -264,6 +262,9 @@ footer {
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
+  background-image: url(../img/stag2_full.jpg);
+  background-size: cover;
+  background-position: center;
 
   .title {
     font-family: 'Josefin Sans', sans-serif;
@@ -277,7 +278,7 @@ footer {
 @media (min-width:780px) {
   .landing-page-main {
     min-height: 40vw;
-    
+
     .title {
       font-size: 4.5rem;
     }
@@ -291,5 +292,48 @@ footer {
     .title {
       font-size: 5rem;
     }
+  }
+}
+
+/* ------- All content pages ------------ */
+
+.content-main {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* ------- Events page --------------- */
+
+.events-headline {
+  margin-bottom: 30px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+
+  img {
+    max-width: 300px;
+  }
+
+  .ev-title {
+    margin-top: 0;
+    font-weight: bold;
+  }
+
+  .ev-date,
+  .ev-time {
+    color: darkgreen;
+    margin: -6px 0;
+  }
+}
+
+@media (min-width:780px) {
+  .event {
+    flex-direction: row;
+    align-items: start;
+    gap: 30px;
   }
 }
