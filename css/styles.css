@@ -36,12 +36,20 @@ body {
   background-color: whitesmoke;
 }
 
+hr {
+  margin-top: 50px;
+}
+
 .wrapper {
   margin: 0 1rem;
 }
 
 p {
   line-height: 1.5;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 header {
@@ -85,6 +93,7 @@ footer {
   color: whitesmoke;
   background-color: black;
   padding: 20px 0;
+  margin-top: 30px;
 }
 
 .footer-top {
@@ -302,6 +311,13 @@ footer {
   margin-top: 30px;
 }
 
+
+/* ------- Contact page --------------- */
+
+#join, #book {
+  margin-top: 50px;
+}
+
 /* ------- Events page --------------- */
 
 .events-headline {
@@ -312,10 +328,11 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   img {
     max-width: 300px;
+    border-radius: 3px;
   }
 
   .ev-title {
