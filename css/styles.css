@@ -66,7 +66,6 @@ header {
 
 main {
   flex: 1;
-
 }
 
 a.text-link,
@@ -93,7 +92,6 @@ footer {
   color: whitesmoke;
   background-color: black;
   padding: 20px 0;
-  margin-top: 30px;
 }
 
 .footer-top {
@@ -307,10 +305,16 @@ footer {
 /* ------- All content pages ------------ */
 
 .content-main {
-  margin-bottom: 30px;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
+@media (min-width:780px) {
+  .content-main {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
 
 /* ------- Contact page --------------- */
 
