@@ -74,6 +74,7 @@ a.text-link:visited {
   color: var(--link-color);
   text-decoration: none;
   position: relative;
+  white-space: nowrap;
 }
 
 a.text-link::after {
@@ -81,9 +82,8 @@ a.text-link::after {
   width: 100%;
   bottom: 0;
   left: 0;
-  height: 4px;
-  /* background-color: #ffc9b9; */
-  background-color: blue;
+  height: 3px;
+  background-color: #072ac8;
   display: block;
   position: absolute;
   opacity: 0.75;
