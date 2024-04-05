@@ -414,6 +414,40 @@ footer {
   }
 }
 
+/* ------- History page --------------- */
+
+.history-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (min-width:500px) {
+  .history-img {
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+  .top {
+    margin-top: 20px;
+  }
+
+  .float-left {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .float-right {
+    float: right;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width:800px) {
+  .history-img {
+    width: 500px;
+  }
+}
+
 /* ------- Events page --------------- */
 
 .events-headline {
