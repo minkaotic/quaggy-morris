@@ -512,10 +512,13 @@ footer {
   margin-bottom: 20px;
 }
 
-.gallery img {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 3px;
+.gallery {
+  max-width: 100%;
+  img {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 3px;
+  }
 }
 
 @media (min-width:780px) {
@@ -535,7 +538,7 @@ footer {
     width: 720px;
     height: 400px;
   }
-  
+
   .gallery img {
     height: 320px;
   }
