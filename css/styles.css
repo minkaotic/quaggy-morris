@@ -5,7 +5,7 @@
   --bar-width: 42px;
   --bar-height: 5px;
   --hamburger-gap: 6px;
-  --hamburger-color: whitesmoke;
+  --hamburger-color: #f8edeb;
   --timing: 200ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
   --x-width: calc(var(--hamburger-height) * 1.41421356237);
@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: #f8edeb;
 }
 
 hr {
@@ -60,7 +60,7 @@ header {
 
 .logo {
   width: 80px;
-  border: 6px double whitesmoke;
+  border: 6px double #f8edeb;
   border-radius: 100%;
 }
 
@@ -89,7 +89,7 @@ a.text-link::after {
 }
 
 footer {
-  color: whitesmoke;
+  color: #f8edeb;
   background-color: black;
   padding: 20px 0;
 }
@@ -192,7 +192,7 @@ footer {
 
 .hamburger-menu:has(input:checked) {
   position: fixed;
-  --hamburger-color: whitesmoke;
+  --hamburger-color: #f8edeb;
 }
 
 .hamburger-menu:has(input:checked)::before {
@@ -331,6 +331,7 @@ footer {
 
 .top-img--mobile {
   width: calc(100vw - 2rem);
+  max-width: 500px;
 }
 
 .bottom-images--mobile {
@@ -366,31 +367,49 @@ footer {
   }
 
   .about-images--desktop {
-    /* width: 50%;
-    max-width: 500px; */
+    width: 50%;
     display: block;
-    height: 600px;
+    height: 630px;
     position: relative;
 
     .image-1 {
-      width: 400px;
+      width: 350px;
       transform: rotate(3deg);
     }
     
     .image-2 {
-      width: 300px;
-      position: absolute;
-      top: 250px;
-      left: 190px;
+      width: 280px;
+      position: relative;
+      top: -65px;
+      left: 70px;
       transform: rotate(4deg);
     }
     
     .image-3 {
       width: 220px;
       position: absolute;
-      top: 330px;
+      top: 380px;
       left: -20px;
       transform: rotate(-5deg);
+    }
+  }
+}
+
+@media (min-width:1065px) {
+  .about-images--desktop {
+    /* height: 600px; */
+
+    .image-1 {
+      width: 400px;
+    }
+    
+    .image-2 {
+      width: 300px;
+      left: 190px;
+    }
+    
+    .image-3 {
+      top: 330px;
     }
   }
 }
