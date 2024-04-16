@@ -555,3 +555,17 @@ footer {
 #join, #book {
   margin-top: 50px;
 }
+
+
+/* ------- Dances page --------------- */
+
+.dances {
+  h3 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+}
