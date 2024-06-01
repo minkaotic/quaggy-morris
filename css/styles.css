@@ -283,6 +283,20 @@ footer {
   font-weight: bold;
 }
 
+.landing-cta {
+  background-color: #ff8fab;
+  color: #2c6e49;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 40px 10px;
+  margin-top: 45%;
+  margin-bottom: 10%;
+  border-radius: 50%;
+  opacity: 90%;
+  transform: rotate(13deg);
+}
+
 @media (min-width:780px) {
   .landing-page-main {
     min-height: 40vw;
@@ -290,6 +304,10 @@ footer {
 
   .landing-page-main .title {
     font-size: 4.5rem;
+  }
+
+  .landing-cta {
+    display: none;
   }
 }
 
