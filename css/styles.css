@@ -117,10 +117,10 @@ footer {
 
 .social.email {
   margin-left: 8px;
+}
 
-  img {
-    padding: 4px;
-  }
+.social.email img {
+  padding: 4px;
 }
 
 @media (min-width:780px) {
@@ -273,33 +273,33 @@ footer {
   background-image: url(../img/stag2_full.jpg);
   background-size: cover;
   background-position: center;
+}
 
-  .title {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.5rem;
-    text-align: center;
-    text-shadow: 4px 4px 0px white;
-    font-weight: bold;
-  }
+.landing-page-main .title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  text-shadow: 4px 4px 0px white;
+  font-weight: bold;
 }
 
 @media (min-width:780px) {
   .landing-page-main {
     min-height: 40vw;
+  }
 
-    .title {
-      font-size: 4.5rem;
-    }
+  .landing-page-main .title {
+    font-size: 4.5rem;
   }
 }
 
 @media (min-width:1000px) {
   .landing-page-main {
     padding-top: 6vw;
+  }
 
-    .title {
-      font-size: 5rem;
-    }
+  .landing-page-main .title {
+    font-size: 5rem;
   }
 }
 
@@ -319,10 +319,8 @@ footer {
 
 /* ------- About page --------------- */
 
-.about-content-container {
-  img {
-    border-radius: 5px;
-  }
+.about-content-container img {
+  border-radius: 5px;
 }
 
 .about-images--desktop {
@@ -336,22 +334,22 @@ footer {
 
 .bottom-images--mobile {
   margin: 40px 0 20px;
+}
 
-  .image-1 {
-    width: 100%;
-    transform: rotate(2deg);
-  }
+.bottom-images--mobile .image-1 {
+  width: 100%;
+  transform: rotate(2deg);
+}
 
-  .image-2 {
-    width: 49%;
-    transform: rotate(-10deg);
-  }
+.bottom-images--mobile .image-2 {
+  width: 49%;
+  transform: rotate(-10deg);
+}
 
-  .image-3 {
-    margin-top: -40px;
-    width: 49%;
-    transform: rotate(4deg);
-  }
+.bottom-images--mobile .image-3 {
+  margin-top: -40px;
+  width: 49%;
+  transform: rotate(4deg);
 }
 
 @media (min-width:780px) {
@@ -372,46 +370,42 @@ footer {
     display: block;
     height: 630px;
     position: relative;
+  }
 
-    .image-1 {
-      width: 350px;
-      transform: rotate(3deg);
-    }
+  .about-images--desktop .image-1 {
+    width: 350px;
+    transform: rotate(3deg);
+  }
 
-    .image-2 {
-      width: 280px;
-      position: relative;
-      top: -65px;
-      left: 70px;
-      transform: rotate(4deg);
-    }
+  .about-images--desktop .image-2 {
+    width: 280px;
+    position: relative;
+    top: -65px;
+    left: 70px;
+    transform: rotate(4deg);
+  }
 
-    .image-3 {
-      width: 220px;
-      position: absolute;
-      top: 380px;
-      left: -20px;
-      transform: rotate(-5deg);
-    }
+  .about-images--desktop .image-3 {
+    width: 220px;
+    position: absolute;
+    top: 380px;
+    left: -20px;
+    transform: rotate(-5deg);
   }
 }
 
 @media (min-width:1065px) {
-  .about-images--desktop {
-    /* height: 600px; */
+  .about-images--desktop .image-1 {
+    width: 400px;
+  }
 
-    .image-1 {
-      width: 400px;
-    }
+  .about-images--desktop .image-2 {
+    width: 300px;
+    left: 190px;
+  }
 
-    .image-2 {
-      width: 300px;
-      left: 190px;
-    }
-
-    .image-3 {
-      top: 330px;
-    }
+  .about-images--desktop .image-3 {
+    top: 330px;
   }
 }
 
@@ -460,22 +454,22 @@ footer {
   flex-direction: column;
   gap: 10px;
   margin-bottom: 40px;
+}
 
-  img {
-    width: 100%;
-    border-radius: 3px;
-  }
+.event img {
+  width: 100%;
+  border-radius: 3px;
+}
 
-  .ev-title {
-    margin-top: 0;
-    font-weight: bold;
-  }
+.event .ev-title {
+  margin-top: 0;
+  font-weight: bold;
+}
 
-  .ev-date,
-  .ev-time {
-    color: darkgreen;
-    margin: -6px 0;
-  }
+.event .ev-date,
+.event .ev-time {
+  color: darkgreen;
+  margin: -6px 0;
 }
 
 @media (min-width:500px) {
@@ -484,10 +478,10 @@ footer {
     align-items: start;
     gap: 30px;
     margin-bottom: 50px;
+  }
 
-    img {
-      width: 200px;
-    }
+  .event img {
+    width: 200px;
   }
 }
 
@@ -497,10 +491,10 @@ footer {
     align-items: start;
     gap: 30px;
     margin-bottom: 50px;
+  }
 
-    img {
-      width: 300px;
-    }
+  .event img {
+    width: 300px;
   }
 }
 
@@ -514,22 +508,24 @@ footer {
 
 .gallery {
   max-width: 100%;
-  img {
-    width: 100%;
-    margin-bottom: 20px;
-    border-radius: 3px;
-  }
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 3px;
 }
 
 @media (min-width:780px) {
   .gallery {
     text-align: center;
+  }
 
-    img {
-      height: 275px;
-      width: inherit;
-      margin-right: 20px;
-    }
+  .gallery img {
+    height: 275px;
+    width: auto;
+    margin-right: 20px;
   }
 }
 
