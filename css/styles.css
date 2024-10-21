@@ -571,15 +571,49 @@ footer {
 }
 
 
-/* ------- Dances page --------------- */
+/* ------- Members pages --------------- */
 
-.dances {
-  h3 {
-    font-size: 16px;
-    margin-top: 30px;
+.dances h3 {
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.dances p {
+  margin: 10px 0;
+
+}
+
+.kitlist li {
+  margin-bottom: 1rem;
+}
+
+.kitlist .nested li {
+  margin-bottom: 0;
+  margin-top: 0.4rem;
+}
+
+.kit-image {
+  text-align: center;
+}
+
+.kit-image img {
+  border-radius: 150px;
+  width: 100%;
+}
+
+.kit-detail-img {
+  width: 100%;
+  margin-top: 12px;
+  max-width: 300px;
+}
+
+@media (min-width:600px) {
+  .kitlist-overview {
+    display: flex;
+    gap: 20px;
   }
 
-  p {
-    margin: 10px 0;
+  .kit-image {
+    width: 60%;
   }
 }
