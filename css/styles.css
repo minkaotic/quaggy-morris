@@ -474,6 +474,19 @@ footer {
   margin-bottom: 40px;
 }
 
+.event .credited-image {
+  position: relative;
+}
+
+.event .image-credit {
+  position: absolute;
+  background-color: linen;
+  font-size: 0.6rem;
+  padding: 1px 2px;
+  border-radius: 2px;
+  bottom: 0;
+}
+
 .event img {
   width: 100%;
   border-radius: 3px;
