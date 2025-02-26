@@ -635,6 +635,10 @@ footer {
   margin-top: 0.4rem;
 }
 
+.memberlist ol.nested li {
+  list-style: lower-alpha;
+}
+
 .kit-image {
   text-align: center;
 }
