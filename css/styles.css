@@ -533,6 +533,10 @@ footer {
   margin: -6px 0;
 }
 
+.event--stag {
+  margin-bottom: 10px !important;
+}
+
 @media (min-width:500px) {
   .event {
     flex-direction: row;
